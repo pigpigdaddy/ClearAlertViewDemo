@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MySubView.h"
 
 @interface ViewController : UIViewController
+
+- (void)removeSubView;
 
 @end

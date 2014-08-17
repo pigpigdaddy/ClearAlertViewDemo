@@ -28,16 +28,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"111" message:@"222" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-    [alert show];
-    NSLog(@"alert %@", alert);
-    
-    UIWindow *window = [[UIApplication sharedApplication] keyWindow];
-    for (NSObject *object in [window subviews]) {
-        NSLog(@"object %@", object);
+    MySubView *subView = [[MySubView alloc] initWithFrame:self.view.bounds];
+    subView.tag = 1000;
+    [self.view addSubview:subView];
+}
+
+- (void)removeSubView
+{
+    UIView *view = [self.view viewWithTag:1000];
+    if (view) {
+        [view removeFromSuperview];
     }
-    
-    
 }
 
 

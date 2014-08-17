@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		674FC9BC19A0563B007D0E2A /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 674FC9BB19A0563B007D0E2A /* CustomAlertView.m */; };
+		6756BA4A19A0AA6600189B8A /* MySubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6756BA4919A0AA6600189B8A /* MySubView.m */; };
 		67A36949199C9E5C0027334D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A36948199C9E5C0027334D /* Foundation.framework */; };
 		67A3694B199C9E5C0027334D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A3694A199C9E5C0027334D /* CoreGraphics.framework */; };
 		67A3694D199C9E5C0027334D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A3694C199C9E5C0027334D /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* Begin PBXFileReference section */
 		674FC9BA19A0563B007D0E2A /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
 		674FC9BB19A0563B007D0E2A /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		6756BA4819A0AA6600189B8A /* MySubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySubView.h; sourceTree = "<group>"; };
+		6756BA4919A0AA6600189B8A /* MySubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySubView.m; sourceTree = "<group>"; };
 		67A36945199C9E5C0027334D /* ClearAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A36948199C9E5C0027334D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		67A3694A199C9E5C0027334D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				67A36978199C9E6F0027334D /* ViewController.m */,
 				674FC9BA19A0563B007D0E2A /* CustomAlertView.h */,
 				674FC9BB19A0563B007D0E2A /* CustomAlertView.m */,
+				6756BA4819A0AA6600189B8A /* MySubView.h */,
+				6756BA4919A0AA6600189B8A /* MySubView.m */,
 				67A3695A199C9E5C0027334D /* Images.xcassets */,
 				67A3694F199C9E5C0027334D /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				67A36979199C9E6F0027334D /* ViewController.m in Sources */,
 				67A36959199C9E5C0027334D /* AppDelegate.m in Sources */,
+				6756BA4A19A0AA6600189B8A /* MySubView.m in Sources */,
 				674FC9BC19A0563B007D0E2A /* CustomAlertView.m in Sources */,
 				67A36955199C9E5C0027334D /* main.m in Sources */,
 			);
